@@ -6,7 +6,7 @@ This repository contains the dataset, evaluation pipeline, and analysis code for
 
 Large Language Models often exhibit strong semantic recall but struggle with episodic memory — the ability to recall events grounded in time, location, and entity context.  
 This project introduces a controlled benchmark designed to isolate and evaluate episodic memory behavior under constrained inference settings.
-
+<img width="1083" height="334" alt="CogAI drawio" src="https://github.com/user-attachments/assets/a007ede3-a7e4-4e4e-a3fe-22f3cc154033" />
 The benchmark is inspired by the Minerva capability taxonomy and focuses on narrative-level memory rather than surface retrieval.
 
 ## Dataset
@@ -49,10 +49,12 @@ Evaluation metrics include:
 ## Results Summary
 
 - Overall episodic recall remains low across all configurations
+![Quantitative_Analysis](https://github.com/user-attachments/assets/3081b535-c1d9-4dab-a733-cad3910f0585)
 - RAG provides limited and inconsistent improvements
+  ![Gardner_Altman_for_qset2](https://github.com/user-attachments/assets/b38adf2d-499f-472c-aecc-623c0e2255bd)
 - Performance correlates with event density and entity recurrence
+  ![Event_Analysis_Chart](https://github.com/user-attachments/assets/11c1927c-597c-4954-93bd-0f5253b27c4e)
 - Retrieval alone does not induce stable episodic reasoning
-
 
 ## Reproducibility
 
